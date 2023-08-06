@@ -15,8 +15,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['update:modelValue', 'change']);
 
-
-
 const currentPage = computed({
   get() {
     return props.modelValue;

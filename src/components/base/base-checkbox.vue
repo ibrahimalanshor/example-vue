@@ -22,8 +22,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['update:modelValue', 'change']);
 
-
-
 const checked = computed({
   get() {
     return props.modelValue;

@@ -19,8 +19,6 @@ const props = defineProps({
   },
 });
 
-
-
 const title = computed(() => {
   return props.titleFromResource ? getString(props.title) : props.title;
 });

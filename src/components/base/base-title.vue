@@ -31,8 +31,6 @@ const props = defineProps({
   },
 });
 
-
-
 const text = computed(() => {
   return props.textFromResource ? getString(props.text) : props.text;
 });

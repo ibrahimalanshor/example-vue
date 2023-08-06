@@ -62,8 +62,6 @@ const emit = defineEmits([
   'end-scroll',
 ]);
 
-
-
 const visibleItems = ref(false);
 const searchText = ref(null);
 const inputEl = ref(null);

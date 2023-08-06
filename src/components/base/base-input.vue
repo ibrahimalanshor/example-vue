@@ -99,8 +99,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['update:modelValue', 'focus', 'input']);
 
-
-
 const element = ref(null);
 const collapsed = ref(props.collapsed);
 

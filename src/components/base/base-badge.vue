@@ -21,8 +21,6 @@ const props = defineProps({
   },
 });
 
-
-
 const style = computed(() => {
   const colors = {
     white: 'bg-gray-50 text-gray-600 ring-gray-500/10',

@@ -79,8 +79,6 @@ const emit = defineEmits(['update:modelValue', 'change']);
 
 const collapsed = ref(props.collapsed);
 
-
-
 const value = computed({
   get() {
     return props.modelValue;

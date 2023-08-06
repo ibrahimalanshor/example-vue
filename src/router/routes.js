@@ -10,5 +10,5 @@ export const routes = [
       title: 'index',
       requireAuth: true,
     },
-  }
+  },
 ];

@@ -50,8 +50,6 @@ const emit = defineEmits([
   'change-sort',
 ]);
 
-
-
 const currentPage = computed({
   get() {
     return props.page;

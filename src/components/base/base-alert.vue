@@ -33,8 +33,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['close']);
 
-
-
 const text = computed(() => {
   return props.textFromResource ? getString(props.text) : props.text;
 });

@@ -34,8 +34,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['update:modelValue', 'confirm']);
 
-
-
 const visible = computed({
   get() {
     return props.modelValue;

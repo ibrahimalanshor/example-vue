@@ -22,8 +22,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['click']);
 
-
-
 const text = computed(() => {
   return props.textFromResource ? getString(props.text) : props.text;
 });

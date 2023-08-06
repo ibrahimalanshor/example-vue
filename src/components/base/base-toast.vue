@@ -28,8 +28,6 @@ const props = defineProps({
 });
 const emit = defineEmits(['close']);
 
-
-
 const icon = computed(() => {
   const icons = {
     success: CheckCircleIcon,
